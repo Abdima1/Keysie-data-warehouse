@@ -1,4 +1,5 @@
-/* Designed a data warehouse for my client shop.*/
+/* Designed a data warehouse for my client shop which the data come from a Mini pos which i had created for
+the clients..*/
 
 /*1:the first table is a store table*/
 IF EXISTS(SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Store_dim_tbl' AND TABLE_SCHEMA = 'dbo')
